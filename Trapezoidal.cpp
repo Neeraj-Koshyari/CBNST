@@ -10,7 +10,7 @@
 
   
   Calculation:
-    given eq = 1 / (x*x*x + 10)
+    Given eq: f(x) = 1 / (x*x*x + 10)
     h = (b-a)/n
   
         |   a   | a + (1*h)  |  a + (2*h)  |  a + (3*h)  |  a + (4*h) or b  
@@ -42,7 +42,7 @@ int main(){
 	
 	// cout<<"Enter number of Interval: ";
 	cin>>n;
-	// Their will be total n+1 Intervals
+	// Intervals are (Y0-Y1),(Y1-Y2),...,(Yn-1 - Yn)
 	
 	cout<<setprecision(4);
 	float h=(b-a)/n;	  //  Each Interval Difference
