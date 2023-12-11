@@ -41,7 +41,7 @@ int main(){
 	// cout<<"Enter the number of Interval: ";
 	// 	Note: The Interval should be divisible by 2 for Simpson 1/3
 	cin>>n;
-	// Total Interval will be n+1
+	// Intervals are (Y0-Y1),(Y1-Y2),...,(Yn-1 - Yn)
 	
 	
 	float h=(b-a)/n;
