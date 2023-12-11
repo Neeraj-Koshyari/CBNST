@@ -1,5 +1,5 @@
 /*
-  Equation of trapezoidal:
+  Equation of Simpson 1/3:
       y= h/3 [ ( Y0 + Yn ) + 4*( Y1 + Y3 + ......+ Yn-1 ) + 2*( Y2 + Y4 + ...... + Yn-2 ) ]
 
   Input:
