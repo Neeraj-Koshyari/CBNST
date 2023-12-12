@@ -5,10 +5,10 @@
       K2 = h * f( Xn-1 + h, Yn-1 + K1 )
 
   Input:
-    X=0, Y=-11, h=0.1, Xn=0.5
+    X=0, Y=-1, h=0.1, Xn=0.5
 
   Output:
-    Value at 0.2 is: 0.9075
+    Value at 0.5 is: -0.8212
 
   Calculation: 
     Given eq f(x) = (-2 * x) - y
