@@ -64,7 +64,7 @@ class NewtonBackward{
 	
 	void printTable(){
 		for(int i=0;i<n;i++){
-			cout<<x[i]<<" ";
+			cout<<setprecision(4)<<x[i]<<" ";
 			for(int j=0;j<=i;j++)
 				cout<<y[i][j]<<" ";
 			cout<<endl;
