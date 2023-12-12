@@ -23,12 +23,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class NewtonForward{
+class NewtonBackward{
 	public:
 	int n;
 	vector<float> x;
 	vector<vector<float>> y;
-	NewtonForward(){
+	NewtonBackward(){
 		// cout<<"Enter Size of data: ";
 		cin>>n;
 		x.resize(n);
@@ -73,7 +73,7 @@ class NewtonForward{
 };
 
 int main(){
-	NewtonForward obj;
+	NewtonBackward obj;
 	obj.DivideAndDiffTable();
 	obj.printTable();
 	
