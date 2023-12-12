@@ -1,5 +1,5 @@
 /*
-  Runge_Kutta_2nd Method:  
+  Runge_Kutta_3rd Method:  
     Formula: Yn = Yn-1 + (K1 + 4*K2 + K3)/6
       K1 = h * f(Xn-1, Yn-1)
       K2 = h * f( Xn-1 + h/2, Yn-1 + K1/2 )
